@@ -1,0 +1,23 @@
+#div1{
+    width:300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: rgb(247, 230, 230);
+    padding: 32px;
+    text-shadow: 4px 4px 10px grey;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px green;
+}
+#div2{
+    width:300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: burlywood;
+    margin-top: 24px;
+    padding: 48px;
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+
+}

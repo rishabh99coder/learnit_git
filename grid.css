@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 48px;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 16px;
+    justify-content: space-between;
+}
+.movie-poster{
+    width: 100%;
+    max-width:400px;
+    box-sizing: border-box;
+    border-color: red;
+}
+.movie-poster:hover{
+    animation: zoom 1s forwards;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+        box-shadow: 0 2px 5px #ccc;
+    }
+    100% {
+        transform:scale(1.1);
+    }
+
+}
+@media(max-width: 900p){
+    #grid-container{
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+@media (max-width: 400px){
+    #grid-container{
+        grid-template-columns: auto;
+    }
+}
